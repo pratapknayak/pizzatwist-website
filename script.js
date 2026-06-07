@@ -228,7 +228,7 @@ function initParticles() {
   const container = document.querySelector('.hero-particles');
   if (!container) return;
 
-  const colors  = ['#F39C12', '#C0392B', '#f8c471', '#e74c3c', '#FFF8F0', '#F39C12'];
+  const colors  = ['#E31B23', '#FFF130', '#00A14B', '#FF3D44', '#ffffff', '#E6D600'];
   const COUNT   = 20;
 
   for (let i = 0; i < COUNT; i++) {
