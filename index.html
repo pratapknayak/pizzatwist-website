@@ -32,7 +32,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="style.css" />
 
@@ -102,7 +102,8 @@
     <nav class="navbar" aria-label="Main navigation">
       <div class="nav-brand">
         <a href="#hero" aria-label="Pizzatwist home">
-          <span class="brand-name">Pizza<span class="brand-accent">twist</span></span>
+          <img src="images/logo-badge.svg" alt="" class="nav-logo-badge" aria-hidden="true" width="46" height="46" />
+          <span class="nav-logo-text">pizzatw<span class="logo-leaf">i</span>st</span>
         </a>
       </div>
 
@@ -136,9 +137,18 @@
       <div class="hero-particles" aria-hidden="true"></div>
       <div class="hero-overlay" aria-hidden="true"></div>
       <div class="hero-content">
-        <p class="hero-eyebrow">Powell, OH's Favorite Pizza</p>
-        <h1 class="hero-title">Pizza<span class="brand-accent">twist</span></h1>
-        <p class="hero-tagline">Italian crust meets <em>Indian zest</em></p>
+
+        <!-- Brand identity: badge + wordmark -->
+        <div class="hero-logo" aria-label="Pizzatwist logo">
+          <img src="images/logo-badge.svg" alt="Pizza Twist badge" class="hero-logo-badge" width="100" height="100" />
+          <div class="hero-logo-wordmark" aria-label="pizzatwist">
+            pizza<em>tw<span class="logo-leaf">i</span>st</em><sup>&#174;</sup>
+          </div>
+        </div>
+
+        <p class="hero-eyebrow">Powell, OH&#39;s Favorite Pizza Since Day One</p>
+        <h1 class="hero-title">Italian Crust.<br>Indian Soul.</h1>
+        <p class="hero-tagline">Where two great culinary traditions collide &mdash; with <em>incredible results</em></p>
         <p class="hero-sub">A flavor journey unlike any other — handcrafted pizzas where authentic Indian spices meet the finest Italian crust, right here in Powell, OH.</p>
         <div class="hero-actions">
           <a href="https://order.online/store/pizza-twist-powel-columbus-33531783?pickup=true"
@@ -806,7 +816,10 @@
       <div class="footer-grid">
 
         <div class="footer-brand">
-          <span class="brand-name footer-logo">Pizza<span class="brand-accent">twist</span></span>
+          <div class="footer-brand-logo">
+            <img src="images/logo-badge.svg" alt="" class="footer-logo-badge" aria-hidden="true" width="44" height="44" />
+            <span class="footer-logo-text">pizza<em>tw<span class="logo-leaf">i</span>st</em></span>
+          </div>
           <p class="footer-tagline">Italian crust meets Indian zest</p>
           <p class="footer-location">Proudly serving Powell, OH &amp; Columbus</p>
         </div>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Pizza Twist badge">
+  <!-- Outer cream ring -->
+  <circle cx="80" cy="80" r="78" fill="#F0E8A0"/>
+  <!-- Red circle background -->
+  <circle cx="80" cy="80" r="70" fill="#E31B23"/>
+
+  <!-- Pizza slice: tip at lower-left (~50,108), crust arcing upper area -->
+  <!-- Path: tip → left crust corner → arc to right crust corner → back to tip -->
+  <path d="M 50 108 L 28 42 A 72 72 0 0 1 118 88 Z" fill="#FFF130"/>
+
+  <!-- Diagonal twist cut through the slice — creates the "twist" silhouette -->
+  <polygon points="45,96 52,80 86,52 79,68" fill="#E31B23"/>
+
+  <!-- Three circular holes / toppings in upper portion of slice -->
+  <circle cx="48" cy="68" r="8.5" fill="#E31B23"/>
+  <circle cx="72" cy="52" r="7.5" fill="#E31B23"/>
+  <circle cx="97" cy="66" r="7.5" fill="#E31B23"/>
+
+  <!-- Registered trademark inside badge -->
+  <circle cx="52" cy="120" r="7.5" fill="none" stroke="rgba(240,232,160,0.7)" stroke-width="1.5"/>
+  <text x="52" y="124.5" text-anchor="middle"
+        font-family="Georgia,serif" font-size="9" font-weight="bold"
+        fill="rgba(240,232,160,0.7)">R</text>
+</svg>
